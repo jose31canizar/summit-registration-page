@@ -1,0 +1,52 @@
+.info
+  width: 100%
+  background: white
+  padding-top: 100px
+  padding: 50px
+  box-sizing: border-box
+  display: flex
+  justify-content: center
+  flex-direction: column
+  align-items: center
+  h2
+    width: 75%
+    padding: 100px
+  h3
+    width: 75%
+    padding: 20px 0
+    @media all and (max-width: 800px) {
+      width: 75%
+    }
+  .reasons
+    width: 50%
+    padding: 50px
+  .first-row-topics
+    margin-top: 100px
+    display: grid
+    column-gap: 1em
+    grid-row-gap: 100px
+    grid-template-columns: repeat(3, 3fr )
+    @media all and (max-width: 1200px) {
+      grid-template-columns: repeat(2, 3fr )
+    }
+    grid-template-rows: auto
+    justify-items: center
+    align-content: center
+  .second-row-topics
+    margin-top: 100px
+    display: grid
+    column-gap: 1em
+    grid-row-gap: 100px
+    grid-template-columns: 33% 33%
+    @media all and (max-width: 1200px) {
+      grid-template-columns: repeat(2, 3fr )
+    }
+    grid-template-rows: auto
+    justify-items: center
+    justify-content: center
+    align-content: center
+  .topic
+    width: 60%
+  .epilogue
+    margin-top: 100px
+    text-align: center

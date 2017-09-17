@@ -1,0 +1,32 @@
+[
+  {
+    "question":"Is this event a good fit for me?",
+    "answers":[
+      "If you can relate to any of the following this event will be extremely helpful to you:",
+      "Restricting food and increasing exercise hasn't been a sustainable lifestyle for you",
+      "You want to make food choices in line with your values in life and reach your potential without filling the voids in your life with food",
+      "You know love, acceptance, and kindness towards self is where the healing is at, but are having trouble applying it to your life",
+      "You’re sick and tired of the emotional rollercoaster of dieting",
+      "You want to enjoy food more and deepen your understanding of the importance of your own metabolic power"
+    ]
+  },
+  {
+    "question":"Where is this event located?",
+    "answers":[
+      "Wherever you are!",
+      " Because this is an online event, there is no physical venue and no travel expenses. You can watch anywhere with an internet connection."
+    ]
+  },
+  {
+    "question":"How do I watch the live sessions?",
+    "answers":[
+      "Once you claim your free ticket, you’ll receive an email in your inbox every day of the event giving you access to all of the talks as they happen. Simply login & follow the easy instructions we give. You’ll be able to view the live sessions on any computer, tablet or mobile device."
+    ]
+  },
+  {
+    "question":"I can’t attend all the live sessions. Will I get a recording?",
+    "answers":[
+      "Yes, the recording for each session will be available for 3 days following the session. Watch it anytime at your convenience during those 3 days, or you can purchase to get access to the interviews & bonus material forever."
+    ]
+  }
+]

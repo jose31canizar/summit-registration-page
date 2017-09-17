@@ -53,7 +53,8 @@ class NavBar extends Component {
     return (
       <div className='nav-bar-wrapper'>
         <div className={'nav-bar' + (this.state.flip ? ' flip' : '')}>
-          <h1>Self-Transformation Summit</h1>
+          <div className='logo'></div>
+          <h1>FoodBodyLove Summit</h1>
           <ul>
             {data.map((item, i) => (
               <Link className="nav-link" to={`/${item.route}`} onMouseDown={this.setSelected.bind(this, item.title)}>

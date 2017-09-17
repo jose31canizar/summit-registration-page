@@ -1,0 +1,32 @@
+[
+  {
+    "speakers": [
+      {
+        "image":"speaker-shannon-kopp",
+        "name":"Shannon Kopp",
+        "description":""
+      },
+      {
+        "image":"speaker-leora-fulvio",
+        "name":"Leora Fulvio",
+        "description":""
+      },
+      {
+        "image":"speaker-mary-anne-cohen",
+        "name":"Mary Anne Cohen",
+        "description":""
+      },
+      {
+        "image":"speaker-colleen-reichman",
+        "name":"Colleen Reichman",
+        "description":""
+      },
+      {
+        "image":"speaker-brandilyn-tebo",
+        "name":"Brandilyn Tebo",
+        "description":""
+      }
+    ],
+    "epilogue":"It doesn’t stop here – we’re adding new experts and thought leaders every day!"
+  }
+]
