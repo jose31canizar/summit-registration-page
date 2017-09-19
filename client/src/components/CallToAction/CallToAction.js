@@ -7,7 +7,8 @@ class CallToAction extends Component {
     return (
       <div className="call-to-action">
         <h2>{this.props.data.title}</h2>
-        <FreePassButton />
+        <FreePassButton openEmailOptIn={this.props.openEmailOptIn}/>
+        <img src={require('../../img/background.png')} />
       </div>
     );
   }

@@ -40,7 +40,7 @@ class Info extends Component {
           ))}
         </div>
         <h3 className='epilogue'>{this.props.data.epilogue}</h3>
-        <FreePassButton/>
+        <FreePassButton openEmailOptIn={this.props.openEmailOptIn}/>
       </div>
     );
   }

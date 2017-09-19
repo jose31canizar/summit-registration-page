@@ -3,6 +3,7 @@ import data from '../../data/navbar.json'
 import { Link } from 'react-router-dom'
 import SmoothScroll from '../SmoothScroll/SmoothScroll'
 import './NavBar.styl'
+import FreePassButton from '../FreePassButton/FreePassButton'
 
 class NavBar extends Component {
   constructor(props) {
@@ -40,7 +41,7 @@ class NavBar extends Component {
       } else {
         return {
           distance: oldDistance - 1,
-          flip: true
+          flip: false
         }
       }
 
@@ -53,20 +54,11 @@ class NavBar extends Component {
     return (
       <div className='nav-bar-wrapper'>
         <div className={'nav-bar' + (this.state.flip ? ' flip' : '')}>
-          <div className='logo'></div>
-          <h1>FoodBodyLove Summit</h1>
-          <ul>
-            {data.map((item, i) => (
-              <Link className="nav-link" to={`/${item.route}`} onMouseDown={this.setSelected.bind(this, item.title)}>
-                <li className={"nav-item-above "  + (item.title === this.state.selected ? "selected-page" : "")}>
-                  {item.title}
-                </li>
-                <li className={"nav-item " + (item.title === this.state.selected ? "selected-page" : "")} onMouseDown={this.setSelected.bind(this, item.title)}>
-                  {item.title}
-                </li>
-              </Link>
-            ))}
-          </ul>
+          <div className='header'>
+            <img className='icon' src={require('../../img/icon.png')} />
+            <img className='title' src={require('../../img/logo-foodbodylove-v5.png')} />
+          </div>
+          <FreePassButton openEmailOptIn={this.props.emailOptIn}/>
         </div>
       </div>
     );
