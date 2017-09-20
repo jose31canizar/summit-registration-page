@@ -8,9 +8,10 @@ class EmailOptIn extends Component {
       firstName: '',
       email: ''
     }
-    this.handleFirstName = this.handleFirstName.bind(this);
-    this.handleEmail = this.handleEmail.bind(this);
-    this.handleSubmit = this.handleSubmit.bind(this);
+    this.handleFirstName = this.handleFirstName.bind(this)
+    this.handleEmail = this.handleEmail.bind(this)
+    this.handleSubmit = this.handleSubmit.bind(this)
+    this.handleClose = this.handleClose.bind(this)
   }
   handleFirstName(event) {
     this.setState({firstName: event.target.value});
@@ -45,10 +46,15 @@ class EmailOptIn extends Component {
       console.log(res)
     })
   }
+  handleClose(e) {
+    // this.props.closeEmailOptIn()
+    e.stopPropagation()
+    console.log('handled close');
+  }
   render() {
     return (
-      <div className="email-opt-in">
-        <div className="registration-block">
+      <div className="email-opt-in" onMouseDown={this.props.closeEmailOptIn}>
+        <div className="registration-block" onMouseDown={this.handleClose}>
           <h1>So close! Complete your registration to access the FREE 7 day FoodBodyLove Summit</h1>
           <h3>World class experts and thought leaders share their best advice on building confidence around food and body.</h3>
           <form onSubmit={this.handleSubmit}>

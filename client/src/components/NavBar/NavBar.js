@@ -54,11 +54,11 @@ class NavBar extends Component {
     return (
       <div className='nav-bar-wrapper'>
         <div className={'nav-bar' + (this.state.flip ? ' flip' : '')}>
-          <div className='header'>
+          <div className='nav-bar-header'>
             <img className='icon' src={require('../../img/icon.png')} />
             <img className='title' src={require('../../img/logo-foodbodylove-v5.png')} />
           </div>
-          <FreePassButton openEmailOptIn={this.props.emailOptIn}/>
+          <FreePassButton openEmailOptIn={this.props.openEmailOptIn}/>
         </div>
       </div>
     );

@@ -12,6 +12,7 @@ class Speakers extends Component {
             <p>{speaker.description}</p>
           </div>
         ))}
+        <h2>{this.props.data.epilogue}</h2>
       </div>
     );
   }
