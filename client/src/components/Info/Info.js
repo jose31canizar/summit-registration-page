@@ -9,14 +9,14 @@ class Info extends Component {
     return (
       <div className="info">
         <h2>{this.props.data.title}</h2>
-        <h3>{this.props.data.description.title}</h3>
+        <p>{this.props.data.description.title}</p>
         <div className='reasons'>
           {this.props.data.description.reasons.map((item, i) => (
             <p>{item}</p>
           ))}
         </div>
-        <h3>{this.props.data.description.conclusion}</h3>
-        <h3>{this.props.data.description.subtitle}</h3>
+        <p>{this.props.data.description.conclusion}</p>
+        <p>{this.props.data.description.subtitle}</p>
         <div className='first-row-topics'>
           {firstRowOfTopics.map((item, i) => (
             <div className='topic'>
