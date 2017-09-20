@@ -10,14 +10,12 @@ class Header extends Component {
           <h2>{this.props.data.headline}</h2>
         </div>
         <div className='header-content'>
-          <div className='video'>
-            <script src="https://fast.wistia.com/embed/medias/fswqtkvea9.jsonp" async>
-            </script>
-            <script src="https://fast.wistia.com/assets/external/E-v1.js" async>
-            </script>
-            <div className="wistia_responsive_padding" style={{padding:'56.25% 0 0 0',position:'relative'}}><div className="wistia_responsive_wrapper" style={{height:'100%',left:'0',position:'absolute',top:'0',width:'100%'}}>
-            <div className="wistia_embed wistia_async_fswqtkvea9 videoFoam=true" style={{height:'100%',width:'100%'}}>&nbsp;</div></div></div>
-          </div>
+            <div className="wistia_responsive_padding" style={{position:'relative'}}>
+            <div className="wistia_responsive_wrapper" style={{height:'100%',left:'0',position:'relative',top:'0',width:'100%'}}>
+            <iframe src="https://fast.wistia.net/embed/iframe/fswqtkvea9" title="Wistia video player" allowTransparency="true" frameBorder="0" scrolling="no" className="wistia_embed" name="wistia_embed" allowFullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="640" height="360"></iframe>
+            <script src="https://fast.wistia.net/assets/external/E-v1.js" async></script>
+            </div>
+            </div>
           <div className='description'>
             <p>{this.props.data.description}</p>
             <p>{this.props.data.offer}</p>
@@ -35,5 +33,3 @@ class Header extends Component {
 }
 
 export default Header;
-
-// <iframe src='https://embedwistia-a.akamaihd.net/deliveries/02650eb989ae12d4e7120f3366202c7df100d141/file.mp4' height='400' width='500' frameBorder='0'></iframe>
