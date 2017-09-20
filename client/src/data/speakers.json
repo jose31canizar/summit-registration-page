@@ -2,23 +2,34 @@
   {
     "speakers": [
       {
+        "image":"speaker-isabel-foxen-duke",
+        "name":"Isabel Foxen Duke",
+        "description":""
+      },
+    {
+        "image":"speaker-evelyn-tribole",
+        "name":"Evelyn Tribole, RD",
+        "description":""
+      },
+
+      {
         "image":"speaker-shannon-kopp",
         "name":"Shannon Kopp",
         "description":""
       },
       {
         "image":"speaker-leora-fulvio",
-        "name":"Leora Fulvio",
+        "name":"Leora Fulvio, LMFT",
         "description":""
       },
       {
         "image":"speaker-mary-anne-cohen",
-        "name":"Mary Anne Cohen",
+        "name":"Mary Anne Cohen, LMFT",
         "description":""
       },
       {
         "image":"speaker-colleen-reichman",
-        "name":"Colleen Reichman",
+        "name":"Colleen Reichman, PsyD",
         "description":""
       },
       {
@@ -27,18 +38,18 @@
         "description":""
       },
       {
-        "image":"speaker-isabel-foxen-duke",
-        "name":"Isabel Foxen Duke",
+        "image":"speaker-anastasia-nevin",
+        "name":"Anastasia Nevin, RD",
         "description":""
       },
       {
-        "image":"speaker-evelyn-tribole",
-        "name":"Evelyn Tribole",
+        "image":"speaker-julie-norman",
+        "name":"Julie Norman, RD",
         "description":""
       },
       {
-        "image":"speaker-jenni-schaefer",
-        "name":"Jenni Scahefer",
+        "image":"speaker-anne-ortelee",
+        "name":"Anne Ortelee",
         "description":""
       }
     ],

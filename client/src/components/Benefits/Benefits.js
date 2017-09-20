@@ -10,7 +10,7 @@ class Benefits extends Component {
           <div className='benefit'>
             <div className='icon'>
               <img src={require(`../../img/icon-benefit-${i+1}.png`)} />
-              <div className='number'>{i}</div>
+              <div className='number'>{i+1}</div>
             </div>
             <div className='content'>
               <h3>{benefit.title}</h3>

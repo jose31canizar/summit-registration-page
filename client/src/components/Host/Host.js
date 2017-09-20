@@ -10,7 +10,7 @@ class Host extends Component {
         <h2>{this.props.data.title}</h2>
 
         <div className='top-description'>
-          <img src={require('../../img/host-jessica.png')} />
+          <img src={require('../../img/host-jessica.jpg')} />
           <div className='right-description'>
             <h3>{this.props.data.description}</h3>
             {topDescription.map((item, i) => (
