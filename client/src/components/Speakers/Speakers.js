@@ -8,7 +8,7 @@ class Speakers extends Component {
         {this.props.data.speakers.map((speaker, i) => (
           <div className="speaker">
             <img src={require(`../../img/${speaker.image}.png`)} />
-            <h2>{speaker.name}</h2>
+            <h3>{speaker.name}</h3>
             <p>{speaker.description}</p>
           </div>
         ))}

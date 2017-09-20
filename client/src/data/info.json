@@ -4,11 +4,11 @@
     "description": {
         "title":"The FoodBodyLove Summit will teach you WHY",
         "reasons": [
-          "...constantly cutting carbs",
-          "...obsessively counting calories",
-          "...punishing yourself when you don’t make it to the gym"
+          "...constantly cutting carbs and counting calories",
+          "...punishing yourself when you skip the gym",
+          "...criticizing every countour of your body"
         ],
-        "conclusion":"is NOT the answer to your food and body problems.",
+        "conclusion":"is taking you further away from where you want to be.",
         "subtitle":"Through solid expert advice learn HOW to change your relationship to food so you stop feeling possessed near potato chips. "
       },
     "topics": [
@@ -16,50 +16,45 @@
         "image":"info-psychology",
         "title":"Psychology",
         "facts": [
-          "Train your brain to let go of destructive habits",
-          "The unseen connection between emotions and eating",
-          "Accept yourself at any size or shape",
-          "Plus more!"
+          "• Train your brain to let go of destructive habits",
+          "• The unseen connection between emotions and eating",
+          "• Accept yourself at any size or shape"
         ]
       },
       {
         "image":"icon-nutrition",
         "title":"Nutrition",
         "facts": [
-          "Work with your metabolism so it works for you, not against you",
-          "Understand the principles of intuitive eating and how to apply them to your daily life",
-          "Find out what’s driving your binges and cravings",
-          "Plus more!"
+          "• Work with your metabolism so it works for you, not against you",
+          "• Understand the principles of intuitive eating and how to apply them to your daily life",
+          "• Find out what’s driving your binges and cravings"
         ]
       },
       {
         "image":"info-self-compassion",
         "title":"Self-Compassion",
         "facts": [
-          "Quiet your nasty inner critic",
-          "Identify ways to bring more love and kindness into your life",
-          "Skills you can use when you’re beating yourself up after that pint of Ben and Jerry’s",
-          "Plus more!"
+          "• Quiet your nasty inner critic",
+          "• Identify ways to bring more love and kindness into your life",
+          "• Skills you can use when you’re beating yourself up after that pint of Ben and Jerry’s"
         ]
       },
       {
         "image":"icon-mindfulness",
         "title":"Mindfulness",
         "facts": [
-          "Reduce anxiety and become more present in your daily life",
-          "Slow down and learn to truly enjoy your meals",
-          "Stop the constant comparing and judgement",
-          "Plus more!"
+          "• Reduce anxiety and become more present in your daily life",
+          "• Slow down and learn to truly enjoy your meals",
+          "• Stop the constant comparing and judgement"
         ]
       },
       {
         "image":"icon-energy-healing",
         "title":"Energy Healing",
         "facts": [
-          "Find new ways to strengthen your mind body connection",
-          "Learn about Eastern energy systems of healing",
-          "Rid yourself of toxic beliefs with the Emotional Freedom Technique",
-          "Plus more!"
+          "• Find new ways to strengthen your mind body connection",
+          "• Learn about Eastern energy systems of healing",
+          "• Rid yourself of toxic beliefs with the Emotional Freedom Technique"
         ]
       }
     ],
