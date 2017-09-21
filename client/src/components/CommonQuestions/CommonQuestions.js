@@ -8,7 +8,7 @@ class CommonQuestions extends Component {
         <h2>Common Questions</h2>
         {this.props.data.map((item, i) => (
           <div className='common-question'>
-            <h3>{item.question}</h3>
+            <h4>{item.question}</h4>
             {item.answers.map((item, i) => (
               <p>{item}</p>
             ))}

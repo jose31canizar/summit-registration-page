@@ -13,7 +13,7 @@ class Benefits extends Component {
               <div className='number'>{i+1}</div>
             </div>
             <div className='content'>
-              <h3>{benefit.title}</h3>
+              <h4>{benefit.title}</h4>
               <p>{benefit.problem}</p>
               <p>{benefit.solution}</p>
             </div>

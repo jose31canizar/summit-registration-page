@@ -9,7 +9,7 @@ class Info extends Component {
     return (
       <div className="info">
         <h2>{this.props.data.title}</h2>
-        <h3>{this.props.data.description.title}</h3>
+        <h4>{this.props.data.description.title}</h4>
         <div className='reasons'>
           {this.props.data.description.reasons.map((item, i) => (
             <p>{item}</p>
