@@ -21,7 +21,7 @@ class Info extends Component {
           {firstRowOfTopics.map((item, i) => (
             <div className='topic'>
               <img src={require(`../../img/${item.image}.png`)}/>
-              <h3>{item.title}</h3>
+              <h4>{item.title}</h4>
               {item.facts.map((fact, i) => (
                 <p>{fact}</p>
               ))}
@@ -32,7 +32,7 @@ class Info extends Component {
           {secondRowOfTopics.map((item, i) => (
             <div className='topic'>
               <img src={require(`../../img/${item.image}.png`)}/>
-              <h3>{item.title}</h3>
+              <h4>{item.title}</h4>
               {item.facts.map((fact, i) => (
                 <p>{fact}</p>
               ))}
