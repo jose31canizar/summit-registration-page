@@ -1,6 +1,6 @@
 [
   {
-    "title":"Here’s A Peek At What You’ll Learn…",
+    "title":"Here’s A Look At What You’ll Learn…",
     "description": {
         "title":"The FoodBodyLove Summit will teach you WHY",
         "reasons": [
@@ -9,8 +9,8 @@
           "...criticizing every contour of your body",
           "...beating yourself up for bingeing"
         ],
-        "conclusion":"is taking you further away from where you want to be. Like WAY further.",
-        "subtitle":"The FoodBodyLove Summit gives you a navigable road map to success. And with our all-star line-up of speakers as your guides, you'll be back on track in no time. Topics in this summit include:"
+        "conclusion":"IS taking you further away from where you want to be. Like WAY further. The FoodBodyLove Summit is just the course correction you need. With a navigable road map and an all-star line-up of speakers as your guides, you'll have everything you need to improve your relationship to food and body.",
+        "subtitle":" Summit Topics Include:"
       },
     "topics": [
       {
@@ -18,7 +18,7 @@
         "title":"Psychology",
         "facts": [
           "• Train your brain to let go of destructive habits",
-          "• The unseen connection between emotions and eating",
+          "• The unseen connection between emotions & eating",
           "• Accept yourself at any size or shape"
         ]
       },
@@ -28,15 +28,15 @@
         "facts": [
           "• Work with your metabolism, not against it",
           "• Learn the principles of intuitive eating",
-          "• Find out what’s driving your binges and cravings"
+          "• Find out what’s driving your binges & cravings"
         ]
       },
       {
         "image":"info-self-compassion",
         "title":"Self-Compassion",
         "facts": [
-          "• Quiet your nasty inner critic",
-          "• Identify ways to bring more accpeptance into your life",
+          "• Get up close and personal with your inner critic ",
+          "• Identify ways to bring more acceptance into your life",
           "• Skills you can use when shame hits hard"
         ]
       },
@@ -46,7 +46,7 @@
         "facts": [
           "• Reduce anxiety and become more present in your daily life",
           "• Slow down and learn to truly enjoy your meals",
-          "• Stop the constant comparing and judgement"
+          "• Stop the constant comparing & judgement"
         ]
       },
       {
@@ -59,6 +59,6 @@
         ]
       }
     ],
-    "epilogue":"Plus inspiring success stories that'll make you say 'I TOTALLY got this!'"
+    "epilogue":"Plus inspiring success stories to make you say 'I TOTALLY got this!'"
   }
 ]
