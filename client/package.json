@@ -2,6 +2,7 @@
   "name": "summit-registration-page",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://18.221.157.99/",
   "proxy": "http://localhost:3001",
   "dependencies": {
     "autoprefixer": "7.1.2",
