@@ -10,6 +10,8 @@ nav-bar-height = 100px
   left: 0
   width: 100%
   z-index: 11
+  @media all and (max-width: 700px)
+    position: relative
 
 .nav-bar
   background: white
@@ -29,6 +31,9 @@ nav-bar-height = 100px
   box-sizing: border-box
   height: 130px
   overflow: hidden
+  @media all and (max-width: 700px)
+    height: auto
+    display: block
   .free-pass-button
     margin: 20px 0
     padding: 0
@@ -51,10 +56,14 @@ nav-bar-height = 100px
     padding: 0
     align-items: center
     justify-content: flex-start
+    @media all and (max-width: 700px)
+      flex-direction: column
     background: white
     .icon
       max-width: 100px
       min-width: 75px
+      @media all and (max-width: 700px)
+        padding-top: 15px
     .title
       max-width: 400px
       min-width: 300px

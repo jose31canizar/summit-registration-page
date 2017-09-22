@@ -7,11 +7,13 @@ var mc_api_key = process.env.MAILCHIMP_API_KEY;
 var list_id = process.env.MAILING_LIST_ID;
 
 const app = express();
+const cors = require('cors')
 const mailchimp = new Mailchimp(mc_api_key);
 
 app.use(express.static(path.resolve(__dirname, '../', 'build')));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
+app.use(cors());
 //routes
 app.get('/api/memberList', (req, res) => {
   mailchimp.get(`/lists/${list_id}/members`)
@@ -37,7 +39,7 @@ app.post('/api/addMember', (req, res) => {
     ], "update_existing": true})
   .then(function(results){
     console.log(results)
-    res.send(results);
+    res.redirect('http://www.truewarrior.fm/congratulations/');
   })
   .catch(function(err){
     console.log(err);

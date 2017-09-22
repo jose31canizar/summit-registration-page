@@ -2,6 +2,8 @@
   width: 100%
   background: white
   padding: 100px
+  @media all and (max-width: 700px)
+    padding: 10px 0
   box-sizing: border-box
   h2
     margin: 50px 0
@@ -10,11 +12,22 @@
     display: flex
     justify-content: center
     align-items: flex-start
+    @media all and (max-width: 700px)
+      align-items: center
+      flex-direction: column
     .right-description
       width: 50%
       margin-left: 50px
+      @media all and (max-width: 700px)
+        margin: 0
+        width: 100%
+      h3
+        margin: 50px
   p
-    margin: 25px 0
-    line-height: 1.3em;
+    margin: 50px 0
+    @media all and (max-width: 700px)
+      margin: 50px 15px
   img
     width: 40%
+    @media all and (max-width: 700px)
+      width: 90%

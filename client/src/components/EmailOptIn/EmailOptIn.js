@@ -30,6 +30,8 @@ class EmailOptIn extends Component {
       headers: {
         'Accept': 'application/json',
         'Content-Type': 'application/json',
+        'Access-Control-Allow-Origin': '*',
+        'Access-Control-Allow-Methods': 'GET, POST, PUT, OPTIONS, DELETE'
       },
       body: JSON.stringify({
         email_address: this.state.email,
