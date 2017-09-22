@@ -13,7 +13,20 @@ const mailchimp = new Mailchimp(mc_api_key);
 app.use(express.static(path.resolve(__dirname, '../', 'build')));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
-app.use(cors());
+// app.use(cors());
+app.options('*', function (req, res) {
+    'use strict';
+    res.header('Access-Control-Allow-Origin', '*');
+    res.header('Access-Control-Allow-Credentials', true);
+    res.header('Access-Control-Allow-Methods', 'POST, GET, PUT, DELETE, OPTIONS');
+    res.header('Access-Control-Allow-Headers', 'Content-Type');
+    res.status(200).end();
+});
+const corsOptions = {
+  origin: 'https://www.truewarrior.fm/congratulations/'
+}
+
+app.use(cors(corsOptions))
 //routes
 app.get('/api/memberList', (req, res) => {
   mailchimp.get(`/lists/${list_id}/members`)
@@ -39,7 +52,7 @@ app.post('/api/addMember', (req, res) => {
     ], "update_existing": true})
   .then(function(results){
     console.log(results)
-    res.redirect('http://www.truewarrior.fm/congratulations/');
+    res.redirect('https://www.truewarrior.fm/congratulations/');
   })
   .catch(function(err){
     console.log(err);
