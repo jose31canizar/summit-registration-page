@@ -56,7 +56,7 @@ class EmailOptIn extends Component {
       <div className="email-opt-in" onMouseDown={this.props.closeEmailOptIn}>
         <div className="registration-block" onMouseDown={this.handleClose}>
           <h2>So excited for you to be a part of the FREE 7 day FoodBodyLove Summit!</h2>
-          <h4>Last step. Sign up to make it happen.</h4>
+          <h4>Sign up to grab a spot and we'll see you Nov 13-19th.</h4>
           <form onSubmit={this.handleSubmit}>
             <input placeholder="first name" type="text" value={this.state.firstName} onChange={this.handleFirstName} />
             <input placeholder="email" type="text" value={this.state.email} onChange={this.handleEmail} />
