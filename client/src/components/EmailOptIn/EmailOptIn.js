@@ -20,9 +20,11 @@ class EmailOptIn extends Component {
     this.setState({email: event.target.value});
   }
   handleSubmit(event) {
-    console.log('A name was submitted: ' + this.state.email + this.state.firstName + this.state.lastName)
+    // console.log('A name was submitted: ' + this.state.email + this.state.firstName + this.state.lastName)
     this.addMember()
     event.preventDefault()
+    window.location.href = 'https://www.truewarrior.fm/congratulations/'
+    return false
   }
   addMember = () => {
     fetch('/api/addMember', {

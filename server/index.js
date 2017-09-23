@@ -52,7 +52,6 @@ app.post('/api/addMember', (req, res) => {
     ], "update_existing": true})
   .then(function(results){
     console.log(results)
-    res.redirect('https://www.truewarrior.fm/congratulations/');
   })
   .catch(function(err){
     console.log(err);
