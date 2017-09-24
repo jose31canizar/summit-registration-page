@@ -3,8 +3,6 @@
   background: white
   padding-top: 100px
   padding: 50px
-  @media all and (max-width: 700px)
-    padding: 20px
   box-sizing: border-box
   display: flex
   justify-content: center
@@ -30,13 +28,14 @@
     width: 100%
     padding-top: 40px
     padding-bottom:40px
-    @media all and (max-width: 700px)
-      width: 100%
+    @media all and (max-width: 800px) {
+      width: 75%
+    }
   .conclusion
     p
-      text-align: center;
-      line-height: 1.5em;
-      padding: 10px 0;
+    text-align: center;
+    line-height: 1.5em;
+    padding: 10px 0;
   .reasons
     padding-bottom: 30px
   .first-row-topics
@@ -47,13 +46,9 @@
     column-gap: 1em
     grid-row-gap: 100px
     grid-template-columns: repeat(3, 3fr )
-    @media all and (max-width: 1200px)
+    @media all and (max-width: 1200px) {
       grid-template-columns: repeat(2, 3fr )
-    @media all and (max-width: 700px)
-      display: flex
-      flex-direction: column
-      justify-content: center
-      align-items: center
+    }
     grid-template-rows: auto
     justify-items: center
     align-content: center
@@ -66,19 +61,12 @@
     @media all and (max-width: 1200px) {
       grid-template-columns: repeat(2, 3fr )
     }
-    @media all and (max-width: 700px)
-      display: flex
-      flex-direction: column
-      justify-content: center
-      align-items: center
     grid-template-rows: auto
     justify-items: center
     justify-content: center
     align-content: center
   .topic
-    width: 70%
-    @media all and (max-width: 700px)
-      padding-bottom: 40px
+    width: 69%
     p
     font-size: 1.1em
   .conclusion
