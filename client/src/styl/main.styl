@@ -16,6 +16,43 @@
     url('../fonts/gotham.woff') format('woff')
 }
 
+
+@font-face {
+  font-family: 'Ano';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/AnoRegular-Regular.eot');
+  src: local('Ano'),
+    url('../fonts/AnoRegular-Regular.woff2') format('woff2'),
+    url('../fonts/AnoRegular-Regular.otf') format('otf'),
+    url('../fonts/AnoRegular-Regular.ttf') format('ttf'),
+    url('../fonts/AnoRegular-Regular.woff') format('woff')
+}
+
+@font-face {
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/Avenir.eot');
+  src: local('Avenir'),
+    url('../fonts/avenir.woff2') format('woff2'),
+    url('../fonts/Avenir.otf') format('otf'),
+    url('../fonts/avenir.ttf') format('ttf'),
+    url('../fonts/avenir.woff') format('woff')
+}
+
+@font-face {
+  font-family: 'Avenir-Heavy';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/avenir-heavy.eot');
+  src: local('Avenir-Heavy'),
+    url('../fonts/Avenir-Heavy.woff2') format('woff2'),
+    url('../fonts/avenir-heavy.otf') format('otf'),
+    url('../fonts/Avenir-Heavy.ttf') format('ttf'),
+    url('../fonts/Avenir-Heavy.woff') format('woff')
+}
+
 html
   overflow-x: hidden
   width: 100%
@@ -55,7 +92,7 @@ body
     background: section-color
     z-index: 2
 
-    @media all and (max-width: 800px)
+    @media all and (max-width: 700px)
       width: 0
 
   .left-border
@@ -75,7 +112,7 @@ body
   button
   b
   label
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Avenir', sans-serif;
     font-weight: 100
     margin: 0
     padding: 0
@@ -104,22 +141,31 @@ body
     color: #504550
     text-align: center
     line-height: 1.3em
+    @media all and (max-width: 700px)
+      font-size: 2em
 
   h3
     font-size: 2.22em
     color: #6A5B69
     font-weight: 600
+    @media all and (max-width: 700px)
+      font-size: 1.4em
 
   h4
     font-size: 1.77em
     color: #9d5794
     font-weight: 400
+    @media all and (max-width: 700px)
+      width: 90%
+      font-size: 1.3em
 
   p
   span
     font-family: 'Helvetica'
     font-size: 1.4em
-    color: #6A5B68
+    color: #837E83
+    @media all and (max-width: 700px)
+      font-size: 1.1em
 
   img
     width: 100%

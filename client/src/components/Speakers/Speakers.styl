@@ -9,8 +9,12 @@
     padding: 100px 0
     @media all and (max-width: 700px)
       width: 85%
+      font-size: 1.5em
+      padding: 50px 0
+      padding-bottom: 50px
   .speakers
-    padding: 100px 0
+    padding-top: 80px
+    padding-bottom: 40px
     width: 100%
     background: white
     display: grid
@@ -18,6 +22,7 @@
     @media all and (max-width: 1200px)
       grid-template-columns: repeat(2, 2fr)
     @media all and (max-width: 700px)
+      grid-row-gap: 65px
       grid-template-columns: repeat(1, 1fr)
     grid-row-gap: 100px
     justify-items: center
@@ -31,9 +36,9 @@
       padding-top: 10px
       font-size: 1.2em
       line-height: 1.2em
-      color: #6A5B68
       @media all and (max-width: 1200px)
         text-align: center
+        font-size: 1em
     .speaker
       width: 60%
       img

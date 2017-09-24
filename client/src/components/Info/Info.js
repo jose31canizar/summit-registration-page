@@ -9,22 +9,26 @@ class Info extends Component {
     return (
       <div className="info">
         <h2>{this.props.data.title}</h2>
-        <h4>{this.props.data.description.title}</h4>
+        <h4 className='subtitle'>{this.props.data.description.title}</h4>
         <div className='reasons'>
           {this.props.data.description.reasons.map((item, i) => (
             <p>{item}</p>
           ))}
         </div>
-        <p className='conclusion'>{this.props.data.description.conclusion}</p>
+        <div className='conclusion'>{this.props.data.description.conclusion.map((item, i) => (
+          <p>{item}</p>
+        ))}</div>
         <h3>{this.props.data.description.subtitle}</h3>
         <div className='first-row-topics'>
           {firstRowOfTopics.map((item, i) => (
             <div className='topic'>
               <img src={require(`../../img/${item.image}.png`)}/>
               <h4>{item.title}</h4>
+              <div className='facts'>
               {item.facts.map((fact, i) => (
                 <p>{fact}</p>
               ))}
+              </div>
             </div>
           ))}
         </div>
@@ -33,9 +37,11 @@ class Info extends Component {
             <div className='topic'>
               <img src={require(`../../img/${item.image}.png`)}/>
               <h4>{item.title}</h4>
+              <div className='facts'>
               {item.facts.map((fact, i) => (
                 <p>{fact}</p>
               ))}
+              </div>
             </div>
           ))}
         </div>
