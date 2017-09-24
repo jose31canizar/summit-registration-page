@@ -24,6 +24,9 @@
       padding-top: 70px
       padding-bottom: 40px
       width: 75%
+      @media all and (max-width: 700px)
+        width: 90%;
+        white-space: pre-wrap;
   .header-content
     display: flex
     justify-content: center
@@ -36,8 +39,7 @@
       height: auto
       background: white
     .description
-      @media all and (max-width: 1500px)
-        width: 80%
+      width: 40%
       @media all and (max-width: 1200px)
         padding-top: 50px
         width: 100%
@@ -45,7 +47,6 @@
         justify-content: center
         flex-direction: column
         align-items: center
-      width: 45%
     .ticket
       display: flex
       align-items: center
@@ -62,9 +63,11 @@
       margin-bottom: 20px
       @media all and (max-width: 1200px)
         width: 50%
+        margin-right: 0
       @media all and (max-width: 700px)
         font-size: 1.1em
         width: 90%
+        margin-right: 0
   .wistia_responsive_padding
     @media all and (max-width: 1500px)
       width: 100% !important
