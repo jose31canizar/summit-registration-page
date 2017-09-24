@@ -20,11 +20,9 @@ class EmailOptIn extends Component {
     this.setState({email: event.target.value});
   }
   handleSubmit(event) {
-    // console.log('A name was submitted: ' + this.state.email + this.state.firstName + this.state.lastName)
+    console.log('A name was submitted: ' + this.state.email + this.state.firstName + this.state.lastName)
     this.addMember()
     event.preventDefault()
-    window.location.href = 'https://www.truewarrior.fm/congratulations/'
-    return false
   }
   addMember = () => {
     fetch('/api/addMember', {
@@ -32,8 +30,6 @@ class EmailOptIn extends Component {
       headers: {
         'Accept': 'application/json',
         'Content-Type': 'application/json',
-        'Access-Control-Allow-Origin': '*',
-        'Access-Control-Allow-Methods': 'GET, POST, PUT, OPTIONS, DELETE'
       },
       body: JSON.stringify({
         email_address: this.state.email,
