@@ -39,7 +39,7 @@ class Info extends Component {
             </div>
           ))}
         </div>
-        <h3 className='epilogue'>{this.props.data.epilogue}</h3>
+        <h2 className='epilogue'>{this.props.data.epilogue}</h2>
         <FreePassButton openEmailOptIn={this.props.openEmailOptIn}/>
       </div>
     );
