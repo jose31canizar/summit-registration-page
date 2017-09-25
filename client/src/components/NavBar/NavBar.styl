@@ -12,10 +12,9 @@ nav-bar-height = 100px
   z-index: 11
   @media all and (max-width: 700px)
     position: relative
-
+    transform: translate3d(0, 0, 0)
 .nav-bar
   background: white
-  /*box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.5)*/
   position: fixed
   top: 0
   left: 0
@@ -56,20 +55,23 @@ nav-bar-height = 100px
     padding: 0
     align-items: center
     justify-content: flex-start
-    @media all and (max-width: 700px)
-      flex-direction: column
     background: white
+    @media all and (max-width: 700px)
+        padding-top: 20px
     .icon
       max-width: 100px
       min-width: 75px
       @media all and (max-width: 700px)
-        padding-top: 15px
+        width: 20%
+        max-width: 20%
+        min-width: 20%
     .title
       max-width: 400px
       min-width: 300px
       @media all and (max-width: 700px)
-        height: 87px
-        object-fit: cover
+        width: 80%
+        max-width: 80%
+        min-width: 80%
   ul
     width: 100%
     display: flex

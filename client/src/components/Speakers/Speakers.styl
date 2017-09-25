@@ -23,7 +23,7 @@
       grid-template-columns: repeat(2, 2fr)
     @media all and (max-width: 700px)
       grid-row-gap: 65px
-      grid-template-columns: repeat(1, 1fr)
+      grid-template-columns: 100%
     grid-row-gap: 100px
     justify-items: center
     h3
@@ -41,5 +41,10 @@
         font-size: 1em
     .speaker
       width: 60%
+      @media all and (max-width: 700px)
+        width: 100%
+        padding: 0 60px
+        box-sizing: border-box
+        margin-bottom: 40px
       img
         width: 100%
