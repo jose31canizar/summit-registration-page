@@ -9,18 +9,22 @@
     {
         "image":"speaker-evelyn-tribole",
         "name":"EVELYN TRIBOLE, RD",
-        "description":"Best-Selling author of Intuitive Eating: A Revolutionary Program that Works"
+        "description":"Best-Selling Author of Intuitive Eating: A Revolutionary Program that Works"
+      },
+      {
+          "image":"speaker-anita-johnston",
+          "name":"DR. ANITA JOHNSTON",
+          "description":"World–Renowned Storyteller and Best-Selling Author of Eating in the Light of the Moon"
+        },
+      {
+        "image":"speaker-shannon-kopp",
+        "name":"SHANNON KOPP",
+        "description":"Best-Selling Author of Pound for Pound and Founder of Soul Paws"
       },
       {
         "image":"speaker-rebecca-scritchfield",
         "name":"REBECCA SCRITCHFIELD, RD",
         "description":"Author of Body Kindness and Host of the Body Kindness Podcast"
-      },
-
-      {
-        "image":"speaker-shannon-kopp",
-        "name":"SHANNON KOPP",
-        "description":"Best-Selling author of Pound for Pound and Founder of Soul Paws"
       },
       {
           "image":"speaker-isabel-foxen-duke",
