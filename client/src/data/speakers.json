@@ -11,6 +11,11 @@
         "name":"EVELYN TRIBOLE, RD",
         "description":"Best-Selling author of Intuitive Eating: A Revolutionary Program that Works"
       },
+      {
+        "image":"speaker-rebecca-scritchfield",
+        "name":"REBECCA SCRITCHFIELD, RD",
+        "description":"Author of Body Kindness and Host of the Body Kindness Podcast"
+      },
 
       {
         "image":"speaker-shannon-kopp",
@@ -27,7 +32,16 @@
         "name":"ANGELA GULNER",
         "description":"Writer and Actress of BINGE: The Series and Host of the Clambake"
       },
-
+      {
+        "image":"speaker-eliza-kingsford",
+        "name":"ELIZA KINGSFORD, LPC",
+        "description":"Obesity expert and Author of Brain Powered Weight Loss"
+      },
+      {
+        "image":"speaker-mary-anne-cohen",
+        "name":"MARY ANNE COHEN, LMFT",
+        "description":"Founder of EmotionalEating.org and Author of Declaring Peace with Emotional Eating Series"
+      },
       {
         "image":"speaker-leora-fulvio",
         "name":"LEORA FULVIO, LMFT",
@@ -37,11 +51,6 @@
         "image":"speaker-anne-ortelee",
         "name":"ANNE ORTELEE",
         "description":"Internationally (ISAR) certified astrologer and Host of The Weekly Weather"
-      },
-      {
-        "image":"speaker-mary-anne-cohen",
-        "name":"MARY ANNE COHEN, LMFT",
-        "description":"Founder of EmotionalEating.org and Author of Declaring Peace with Emotional Eating Series"
       },
       {
         "image":"speaker-colleen-reichman",
