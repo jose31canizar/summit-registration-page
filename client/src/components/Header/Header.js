@@ -60,7 +60,7 @@ class Header extends Component {
             <p>{this.props.data.offer}</p>
             <div className='ticket'>
               <img src={require('../../img/header-ticket.png')} />
-              <p><b>Grab your FREE pass to the </b><span>FoodBodyLove Summit</span> ($997 Value)</p>
+              <p><b>Grab your FREE pass to the </b><span>FoodBodyLove Rally</span> ($997 Value)</p>
             </div>
           </div>
         </div>
