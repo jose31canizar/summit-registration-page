@@ -57,6 +57,11 @@
         "description":"Internationally (ISAR) certified astrologer and Host of The Weekly Weather"
       },
       {
+        "image":"speaker-julie-norman",
+        "name":"JULIE NORMAN, E-RYT",
+        "description":"Creator of signature yoga-based program, Body Karma Healing"
+      },
+      {
         "image":"speaker-colleen-reichman",
         "name":"Dr. COLLEEN REICHMANN",
         "description":"Creator of Food and Feelings: How To Survive and Thrive in a Diet-Driven World"
@@ -72,10 +77,11 @@
         "description":"Nutrition therapist and yoga teacher focused on body-centered healing"
       },
       {
-        "image":"speaker-julie-norman",
-        "name":"JULIE NORMAN, E-RYT",
-        "description":"Creator of signature yoga-based program, Body Karma Healing"
+        "image":"speaker-lexie-manion",
+        "name":"LEXIE MANION, RD",
+        "description":"Body Positive Advocate. Founder of #BoycotttheBefore #FearlesslyFaceless"
       }
+
     ],
     "epilogue":"More in the queue – we’re adding new experts and thought leaders every day!"
   }
