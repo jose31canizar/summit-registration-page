@@ -27,10 +27,20 @@
         "description":"Author of Body Kindness and Host of the Body Kindness Podcast"
       },
       {
+          "image":"speaker-dana-falsetti",
+          "name":"DANA FALSETTI",
+          "description":"Yoga Teacher and Advocate for Woman to Live More Confidently and Fully"
+        },
+      {
           "image":"speaker-isabel-foxen-duke",
           "name":"ISABEL FOXEN DUKE",
           "description":"Creator of the Stop Fighting Food program and body positive activist"
         },
+        {
+            "image":"speaker-rosie-molinary",
+            "name":"ROSIE MOLINARY",
+            "description":"Radical Self-Acceptance Champion and Author of Beautiful You"
+          },
       {
         "image":"speaker-angela-gulner",
         "name":"ANGELA GULNER",
@@ -46,6 +56,11 @@
         "name":"MARY ANNE COHEN, LMFT",
         "description":"Founder of EmotionalEating.org and Author of Declaring Peace with Emotional Eating Series"
       },
+      {
+          "image":"speaker-lisa-lewtan",
+          "name":"ROSIE MOLINARY",
+          "description":"Author of Busy, Stressed, and Food Obsessed and Host of Healthy View Radio"
+        },
       {
         "image":"speaker-leora-fulvio",
         "name":"LEORA FULVIO, LMFT",

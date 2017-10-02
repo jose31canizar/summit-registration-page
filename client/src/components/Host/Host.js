@@ -55,11 +55,9 @@ class Host extends Component {
     return (
       <div className="host">
         <h2>{this.props.data.title}</h2>
-
         <div className='top-description'>
           <div className='media'>
             <img src={require('../../img/host-jessica.jpg')} />
-            <iframe width={this.state.width} height={0.5625*this.state.width} src="https://www.youtube.com/embed/FzO-U60-85M" frameborder="0" allowFullScreen></iframe>
           </div>
           <div className='right-description'>
             <h4>{this.props.data.description}</h4>
