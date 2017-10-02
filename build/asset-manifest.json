@@ -1,6 +1,6 @@
 {
-  "main.js": "static/js/main.1715d86c.js",
-  "main.js.map": "static/js/main.1715d86c.js.map",
+  "main.js": "static/js/main.63654bf8.js",
+  "main.js.map": "static/js/main.63654bf8.js.map",
   "static/media/AnoRegular-Regular.eot": "static/media/AnoRegular-Regular.36e000c2.eot",
   "static/media/AnoRegular-Regular.otf": "static/media/AnoRegular-Regular.5ebad178.otf",
   "static/media/AnoRegular-Regular.ttf": "static/media/AnoRegular-Regular.bcc58bd9.ttf",
@@ -51,6 +51,7 @@
   "static/media/speaker-brandilyn-tebo.png": "static/media/speaker-brandilyn-tebo.f1afe73c.png",
   "static/media/speaker-christy-harrison.png": "static/media/speaker-christy-harrison.337e46ae.png",
   "static/media/speaker-colleen-reichman.png": "static/media/speaker-colleen-reichman.1ed535bc.png",
+  "static/media/speaker-dana-falsetti.png": "static/media/speaker-dana-falsetti.37de3938.png",
   "static/media/speaker-eliza-kingsford.png": "static/media/speaker-eliza-kingsford.fab96470.png",
   "static/media/speaker-evelyn-tribole.png": "static/media/speaker-evelyn-tribole.a7284a5e.png",
   "static/media/speaker-isabel-foxen-duke.png": "static/media/speaker-isabel-foxen-duke.4c73c7d5.png",
@@ -58,7 +59,9 @@
   "static/media/speaker-julie-norman.png": "static/media/speaker-julie-norman.5bc2bd75.png",
   "static/media/speaker-leora-fulvio.png": "static/media/speaker-leora-fulvio.bca4ba38.png",
   "static/media/speaker-lexie-manion.png": "static/media/speaker-lexie-manion.78233a36.png",
+  "static/media/speaker-lisa-lewtan.png": "static/media/speaker-lisa-lewtan.ec9d9412.png",
   "static/media/speaker-mary-anne-cohen.png": "static/media/speaker-mary-anne-cohen.bf12f377.png",
   "static/media/speaker-rebecca-scritchfield.png": "static/media/speaker-rebecca-scritchfield.463c8819.png",
+  "static/media/speaker-rosie-molinary.png": "static/media/speaker-rosie-molinary.b7d19cca.png",
   "static/media/speaker-shannon-kopp.png": "static/media/speaker-shannon-kopp.7129e6a9.png"
 }
