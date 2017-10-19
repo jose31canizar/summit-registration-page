@@ -6,7 +6,7 @@
         "name":"CHRISTY HARRISON, RD",
         "description":"Host of Food Psych podcast and Teacher of Intuitive Eating Fundamentals"
       },
-    {
+      {
         "image":"speaker-evelyn-tribole",
         "name":"EVELYN TRIBOLE, RD",
         "description":"Best-Selling Author of Intuitive Eating: A Revolutionary Program that Works"
@@ -15,7 +15,7 @@
           "image":"speaker-anita-johnston",
           "name":"DR. ANITA JOHNSTON",
           "description":"World–Renowned Storyteller and Best-Selling Author of Eating in the Light of the Moon"
-        },
+      },
       {
         "image":"speaker-shannon-kopp",
         "name":"SHANNON KOPP",
@@ -30,17 +30,37 @@
           "image":"speaker-dana-falsetti",
           "name":"DANA FALSETTI",
           "description":"Yoga Teacher and Advocate for Woman to Live More Confidently and Fully"
-        },
+      },
+      {
+            "image":"speaker-marissa-sappho",
+            "name":"MARISSA SAPPHO, LCSW",
+            "description":"Founder and Clinical Director of Aurora Behavioral Health"
+      },
+      {
+          "image":"speaker-katie-dalebout",
+          "name":"KATIE DALEBOUT",
+          "description":"Host of Let it Out podcast and Author of Let it Out: A Journey Through Journaling"
+      },
       {
           "image":"speaker-isabel-foxen-duke",
           "name":"ISABEL FOXEN DUKE",
           "description":"Creator of the Stop Fighting Food program and body positive activist"
-        },
-        {
+      },
+      {
             "image":"speaker-rosie-molinary",
             "name":"ROSIE MOLINARY",
             "description":"Radical Self-Acceptance Champion and Author of Beautiful You"
-          },
+      },
+      {
+            "image":"speaker-mary-anne-cohen",
+            "name":"MARY ANNE COHEN, LCSW",
+            "description":"Founder of EmotionalEating.org and Author of Declaring Peace with Emotional Eating Series"
+      },
+      {
+        "image":"speaker-kelsey-miller",
+        "name":"KELSEY MILLER",
+        "description":"Creator of the Anti-Diet Project and Author of Big Girl: How I Gave up Dieting and Got a Life"
+      },
       {
         "image":"speaker-angela-gulner",
         "name":"ANGELA GULNER",
@@ -52,19 +72,39 @@
         "description":"Obesity expert and Author of Brain Powered Weight Loss"
       },
       {
-        "image":"speaker-mary-anne-cohen",
-        "name":"MARY ANNE COHEN, LMFT",
-        "description":"Founder of EmotionalEating.org and Author of Declaring Peace with Emotional Eating Series"
+        "image":"speaker-erica-drewry",
+        "name":"Erica Drewry, RD",
+        "description":"Nutrition Counselor and Certified Eating Disorder Registered Dietitian (CEDRD)"
       },
       {
-          "image":"speaker-lisa-lewtan",
-          "name":"LISA LEWTAN",
-          "description":"Author of Busy, Stressed, and Food Obsessed! and Radio Show Host on Healthy View Radio."
+        "image":"speaker-nancy-staycer",
+        "name":"NANCY STAYCER, LCSW",
+        "description":"Clinical Director at Montecatini Eating Disorder Treatment Center"
+      },
+      {
+        "image":"speaker-ann-biasetti",
+        "name":"ANN BIASETTI, PHD LCSW-R",
+        "description":"Self-Compassion, Mindfulness, and Embodiment Expert"
+      },
+      {
+        "image":"speaker-lisa-lewtan",
+        "name":"LISA LEWTAN",
+        "description":"Author of Busy, Stressed, and Food Obsessed! and Host on Healthy View Radio"
+        },
+      {
+        "image":"speaker-carolyn-becker",
+        "name":"CAROLYN BECKER, PHD",
+        "description":"Co-Director and Founder of the Body Project Collaborative and TEDX Speaker"
         },
       {
         "image":"speaker-leora-fulvio",
         "name":"LEORA FULVIO, LMFT",
         "description":"Creator of the 5 Week Step-by-Step Program to Stop Binge Eating For Good"
+      },
+      {
+        "image":"speaker-nancy-staycer",
+        "name":"SHARON ZIMBLER, MFT",
+        "description":"Executive Director at Montecatini Eating Disorder Treatment Center"
       },
       {
         "image":"speaker-anne-ortelee",
@@ -95,8 +135,12 @@
         "image":"speaker-lexie-manion",
         "name":"LEXIE MANION",
         "description":"Body Positive Advocate. Founder of #BoycotttheBefore #FearlesslyFaceless"
+      },
+      {
+        "image":"speaker-betsy-thurston",
+        "name":"BETSY THURSTON, RD",
+        "description":"Host of the Binge Dieting Podcast and intergrative health coach"
       }
-
     ],
     "epilogue":"More in the queue – we’re adding new experts and thought leaders every day!"
   }
