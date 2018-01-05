@@ -46,6 +46,11 @@ class Info extends Component {
           ))}
         </div>
         <h2 className='epilogue'>{this.props.data.epilogue}</h2>
+        <div className='sponsors'>
+          <img src={require(`../../img/logo-aurora.jpg`)}/>
+          <img src={require(`../../img/logo-green-mountain-fox-run.png`)}/>
+          <img src={require(`../../img/logo-reasons.jpg`)}/>
+        </div>
         <FreePassButton openEmailOptIn={this.props.openEmailOptIn}/>
       </div>
     );
